@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #fff;
+  line-height: 1.2em;
+}
+.main-banner {
+  background-image: url("/assets/images/new-york.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+
+}
+.text-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translate(0, -50%);
+}
+.text-container * {
+  margin-bottom: 30px;
+}
+.text-container h1 {
+  font-size: 3em;
+  line-height: 1.2em;
+}
+
+.text-containerp {
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+.text-container .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  border: #ffffff 1px solid;
+  padding: 10px 50px;
+  border-radius: 20px;
+  transition: all 0.3s ease-out;
+}
+
+.text-container .button:hover {
+  background: #b1fd00;
+  color: #000;
+  transition: all 0.3s ease-out;
+}
+.section {
+  border: 1px solid #926239;
+}
+.section-1 {
+  padding: 20px;
+  background-image: radial-gradient(
+    circle farthest-corner at 8.7% 21.2%,
+    rgba(146, 213, 171, 1) 0.6%,
+    rgba(148, 247, 184, 1) 73.1%
+  );
+  color: #fff;
+  text-align: justify;
+}
+
+.section-2 {
+  padding: 20px;
+  background-color: rgb(255, 230, 147);
+  color: #926239;
+  text-align: justify;
+}
+.section-3 div {
+  padding: 20px;
+  display: inline-block;
+  width: 33.3%;
+  text-align: justify;
+  margin: 0;
+  border: 1px solid #926239;
+}
+.section-3 div:nth-child(even) {
+  background-color: rgb(255, 230, 147);
+  color: #926239;
+}
+.section-3 div:nth-child(odd) {
+  background-image: radial-gradient(
+    circle farthest-corner at 8.7% 21.2%,
+    rgba(146, 213, 171, 1) 0.6%,
+    rgba(148, 247, 184, 1) 73.1%
+  );
+}
